@@ -1,0 +1,93 @@
+#self_intro {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#self_intro img{
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+}
+
+#self_intro p{
+  width:  300px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  font-style: normal;
+  vertical-align: text-bottom;
+  line-height : 50px;
+}
+
+#self_intro div{
+  text-align: center;
+}
+
+h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  font-style: normal;
+  text-align: center;
+  height: 100px;
+  margin: 0 0 60px 0;
+}
+
+h2 {
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+}
+
+.work_img_btn {
+  text-align: center;
+}
+
+.work_img_btn input{
+  width: 300px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  border-style: hidden;
+}
+
+.bg-crop {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 50px 10px 10px 10px;
+  border: 2px solid black;
+
+  .bg-img {
+    border: 10px solid black;
+    position: relative;
+    top: -25%;
+    left: -25%;
+    width: 400px;
+    height: 500px;
+    
+  }
+
+  #bg-img3 {
+    position: relative;
+    top: 0%;
+    left: -5%;
+    width: 340px;
+    height: 300px;
+  }
+}
+
+#featured_block {
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(219, 219, 219);
+}
