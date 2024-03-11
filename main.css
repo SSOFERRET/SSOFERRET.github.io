@@ -86,7 +86,7 @@ h2 {
 }
 
 #featured_block {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 100px 10px;
   display: flex;
   justify-content: center;
   border-top: 1px solid rgb(219, 219, 219);
